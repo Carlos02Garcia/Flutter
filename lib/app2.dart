@@ -24,6 +24,7 @@ class MyAppForm2 extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text('Formulario 2'),
+          centerTitle: true,
         ),
         body: Container(
           decoration: BoxDecoration(
@@ -53,6 +54,9 @@ class MyAppForm2 extends StatelessWidget {
                       return null;
                     },
                   ),
+                   Divider(
+                  height: 28.0,
+                ),
                      TextFormField(
                     decoration: InputDecoration(
                       hintText: 'NOMBRE',
@@ -67,6 +71,9 @@ class MyAppForm2 extends StatelessWidget {
                       return null;
                     },
                   ),
+                   Divider(
+                  height: 20.0,
+                ),
                   TextFormField(
                     decoration: InputDecoration(
                       hintText: 'EMAIL',
@@ -81,6 +88,9 @@ class MyAppForm2 extends StatelessWidget {
                       return null;
                     },
                   ),
+                                  Divider(
+                  height: 28.0,
+                ),
                   TextFormField(
                     decoration: InputDecoration(
                       hintText: 'CELULAR',
@@ -95,6 +105,9 @@ class MyAppForm2 extends StatelessWidget {
                       return null;
                     },
                   ),
+                                  Divider(
+                  height: 18.0,
+                ),
                   TextFormField(
                   enableInteractiveSelection: false,
                   obscureText: true,
@@ -111,6 +124,9 @@ class MyAppForm2 extends StatelessWidget {
                       return null;
                     },
                   ),
+                                  Divider(
+                  height: 18.0,
+                ),
                   ElevatedButton(
                     onPressed: () {
                       if (formKey.currentState != null &&

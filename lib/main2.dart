@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'app2.dart';
 
-void main() {
+void main(){
   runApp(
     MyAppForm2(
       formKey: GlobalKey<FormState>(), // Debes proporcionar un GlobalKey<FormState>
